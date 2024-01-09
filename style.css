@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    display: grid;
+    margin: 0 1rem;
+    
+    
+}
+#head{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 1.5rem 1rem 1rem 1rem;
+    /* position: fixed; */
+
+}
+#date{
+    padding: 0 0 0 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #aaaaaa;
+}
+/* createTaskBtn */
+#createTask {
+    text-align: center;
+    padding: 1rem 1.3rem 1.4rem 1.3rem;
+    font-size: 2rem;
+    line-height: 1.5rem;
+    border-radius: 50%;
+}
+#createNewTask{
+    width: 100%;
+    padding: 0 0;
+    background-color: white;
+}
+#newTaskField{
+    display: none;
+    transition: display 0.2s ease-out;
+    padding-bottom: 1rem;
+    /* z-index: 1; */
+}
+#showTasks{
+    
+}
+
+@media screen and (min-width: 900px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }  
+  .graphs{
+    
+    padding: 3rem 2rem;
+  }
+}
+

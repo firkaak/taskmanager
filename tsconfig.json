@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "target": "ESNext",
+        // "target": "ES5",
+        // "module": "CommonJS",
+        "strict": true,
+        "esModuleInterop": true
+    }
+}
